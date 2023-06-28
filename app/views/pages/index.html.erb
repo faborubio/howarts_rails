@@ -1,0 +1,6 @@
+<h1>Mostrando todos los Personajes con sus casas y location</h1>
+
+
+<% @characteres.each do |a| %>
+ <p><%= "#{a.name} #{a.location} #{a.house}" %></p>
+<% end%>
